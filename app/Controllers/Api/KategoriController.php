@@ -42,7 +42,7 @@ class KategoriController extends BaseController
 
         return $this->respond([
             'status' => 'success',
-            'data' => '$kategori'
+            'data' => $kategori
         ], 200);
     }
 
